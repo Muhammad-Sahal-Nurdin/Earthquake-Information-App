@@ -37,7 +37,6 @@ def ekstraksi_data():
         dirasakan = None
 
         for res in result:
-            print(i, res)
             if i == 2:
                 magnitudo = res.text
             elif i == 4:
